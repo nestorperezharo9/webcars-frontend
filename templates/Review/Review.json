@@ -1,0 +1,16 @@
+{
+    "titulo": "BMW M4 2020",
+    "apartados": [
+      {
+        "titulo2":"BMW M4",
+        "texto":"Con dos puertas menos y proporciones más elegantes, el BMW M4 2020 es una alternativa de apariencia más deportiva al sedán M3. Ambos cuentan con un brillante motor biturbo de seis cilindros que es tan refinado como poderoso, y su designación 'M' significa que son descendientes de la subdivisión histórica de BMW. El M4 es más entusiasta que la serie 4 normal. Además, el M4 2020 tiene el pedigrí y las estadísticas para atraer entusiastas.",
+        "foto": "/templates/assets/subasta-bmw-m4-gts-1975555.jpg"
+      },
+
+      {
+        "titulo2":"Motor, transmisión y rendimiento",
+        "texto":"La potencia proviene de un motor de seis cilindros en línea biturbo de 425 hp, con una transmisión manual de seis velocidades o una transmisión automática de doble embrague de siete velocidades y tracción trasera. El paquete Competition aumenta la potencia de salida a 444 caballos, reajusta los amortiguadores adaptativos, agrega una relación de dirección más directa e introduce nuevas configuraciones para el sistema de control de estabilidad y el diferencial trasero.",
+        "foto": "/templates/assets/motor-m4.jpg"
+      }
+    ]
+  }

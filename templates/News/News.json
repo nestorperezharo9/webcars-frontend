@@ -1,0 +1,36 @@
+{
+    "noticias": [
+        {
+            "imagen" : "/templates/assets/porsche.jpg",
+            "titulo":"Nuevo Porsche Taycan",
+            "categoria": "Eléctrico",
+            "descripcion": "Nuestro primer deportivo 100% eléctrico, es fascinante en términos de tecnología y dinámica, y por supuesto, apasionante en su conducción, siendo el deportivo eléctrico con la carga más rápida. Se recarga* del 5% al 80% en tan solo 22 minutos y 30 segundos, manteniendo intacto su rendimiento, independientemente de dicha carga. En Porsche nos gusta adelantarnos, por concepto. Esta vez, incluso al futuro.",
+            "minutos": "12 minutos"
+        },
+        
+        {
+            "imagen" : "/templates/assets/id3.jpg",
+            "titulo":"El nuevo Volkswagen ID.3 ya es un éxito de ventas en Europa",
+            "categoria": "Eléctrico",
+            "descripcion": "El desembarco del nuevo Volkswagen ID.3 en los concesionarios europeos apenas acaba de comenzar y ya es un verdadero éxito de ventas. El nuevo coche eléctrico de Volkswagen ha sido capaz de superar a algunos de sus rivales más directos entrando directamente en el podio de eléctricos más matriculados.",
+            "minutos": "20 minutos"
+        },
+
+        {
+            "imagen" : "/templates/assets/xpeng.jpg",
+            "titulo":"El Xpeng P7 estrena una espectacular variante con puertas tipo Lamborghini",
+            "categoria": "Combustión",
+            "descripcion":"El fabricante chino ha sorprendido en el Salón del Automóvil de Guangzhou 2020 con la presentación de un Xpeng P7 dotado de puertas de apertura vertical tipo Lamborghini y no se trata de un simple concept, sino de una edición limitada que estará a la venta en breve en China, el nuevo Xpeng P7 Wing Limited Edition.",
+            "minutos": "3 minutos"
+        },
+
+        {
+            "imagen" : "/templates/assets/yenko.jpg",
+            "titulo":"Yenko lanza dos salvajes Silverado preparados para tierra o asfalto de más de 800 CV",
+            "categoria": "Combustion",
+            "descripcion":"Los chicos de Specialty Vehicle Engineering (SVE) han sorprendido presentando dos variantes muy distintas pero muy radicales del Chevrolet Silverado Yenko/SC dotadas de un V8 de 6.2 litros sobrealimentado fabricado a mano con más de 800 caballos, herencia directa del Yenko Super Camaro.",
+            "minutos": "18 minutos"
+        }
+    ]
+
+}

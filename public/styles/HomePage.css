@@ -1,0 +1,140 @@
+.preview-divider-small {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.preview-divider-small img {
+    object-fit: cover;
+    height: 16rem;
+}
+
+.preview-divider-large {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.preview-divider-large img {
+    height: auto;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.column-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 20%;
+}
+
+@media screen and (min-width: 768px) {
+    .preview-title-image-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .preview-title-big {
+        display: none;
+    }
+
+    .preview-title-image-small {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: 25% 60%;
+        gap: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .preview-title-image-small h2 {
+        color: white;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .preview-title-image-small h3 {
+        color: #FFF3CA;
+        margin: 0.5rem 0px 0 0;
+    }
+
+    .preview-text {
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .align {
+        padding: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem ;
+        color: #676767;
+        text-overflow:ellipsis;
+        max-height:4rem;
+        overflow: hidden;
+    }
+
+    h4 {
+        color: #676767;
+
+    }
+
+    .container {
+        background-color: transparent;
+        padding: 0;
+        border: none;
+    }
+
+    .column-grid {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .preview-divider-large {
+        background-color: #FFD12E;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .preview-divider-large img {
+        border-radius: 15px;
+        object-fit: cover;
+        height: 7rem;
+    }
+
+    .preview-divider-small {
+        padding: 1rem;
+        margin-top: 3rem;
+        background-color: #FFEDAF;
+        border-radius: 30px;
+        display: grid;
+        grid-template-columns: 25% 70%;
+        gap: 2rem;
+    }
+
+    .preview-divider-small img {
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        height: 7rem;
+    }
+
+    .preview-divider-small h3 {
+        margin: 0.4rem 0 0 0;
+    }
+
+    .preview-divider-small {
+        max-height: 8rem;
+    }
+
+    .preview-divider-small .preview-text {
+        padding: 0;
+    }
+}

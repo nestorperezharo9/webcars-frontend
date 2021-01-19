@@ -1,0 +1,96 @@
+.containercar {
+    max-width: 60%;
+    padding: 3%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 8%;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.container2 {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    margin:auto;
+}
+
+.containercar img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.item {
+    cursor: pointer;
+    border-radius: 10px;
+    max-width: 40%;
+    margin-bottom: 3rem;
+}
+
+.cartext {
+    color: #FFFFFF;
+    font-size: 0.9vw;
+}
+
+.bordertext {
+    width: 100%; 
+    height: 10%; 
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;  
+}
+
+@media screen and (min-width: 769px) {
+    .containeresp {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .align {
+        padding: 10px;
+    }
+    .container2 {
+        background-color: transparent;
+        border: none;
+    }
+
+    .bordertext {
+        display: none;
+    }
+
+    .containercar {
+        grid-template-columns: 30% 60%;
+        padding: 0;
+        display: grid;
+        margin: 0;
+        max-width: 100%;
+
+    }
+
+    .item {
+        border : none;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        margin-top: 0.2rem;
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        color: #676767;
+    }
+
+}

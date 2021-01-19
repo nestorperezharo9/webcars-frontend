@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="/javascript/Form.js" defer></script>
+    <link rel="stylesheet" href="/styles/Styles.css">
+    <link rel="stylesheet" href="/styles/Form.css">
+    <title>Review Form</title>
+</head>
+
+<body>
+    <header>
+        <div class="gray1-square"></div>
+        <div class="gray2-square"></div>
+        <a href = "/"><h1>Coches</h1></a>
+    </header>
+    <nav>
+        <a href="/reviews/combustion">Combustión</a>
+        <a href="/reviews/electricos">Eléctricos</a>
+        <a href="/noticias">Noticias</a> 
+        <a href="/futuro">Futuro</a>
+        <a href="/form">Nueva Review</a>
+    </nav>
+    <div class="align">
+        <h1>📃Nueva Review</h1>
+        <form id="form" onsubmit="validarForm(event)">
+            <div class="containerform">
+                <div class="containerinput">
+                    <label for= "email">Email</label>
+                    <input class="sinborde" type="email" size="137"
+                        placeholder="Email 'name@domain.org'" name="email" id="email"> </div>
+                <div id="1" class="div-error"></div> 
+                <br>
+                <div class="containerinput">
+                    <label for="title">Título</label>
+                    <input class="sinborde" type="text" size="137"
+                    placeholder="Máximo 25 caracteres" name="title" id="titl"> </div>
+                <div id="2" class="div-error"></div>
+                <br>
+                <div class="containerinput">
+                    <label for="category">Categoría</label>
+                    <select class="sinborde" name="Category" id="category">
+                        <option value=''>...</option>
+                        <option>combustion</option>
+                        <option>electrico</option>
+                    </select>
+                </div>
+                <div id="4" class="div-error"></div>
+                <br>
+                <h2>Secciones</h2>
+                <div class = "sections-container" id = "sections-container">
+                </div>
+                <h2>Especificaciones</h2>
+                <div class = "specfifications-container" id = "specifications-container">
+                </div>
+            </div>
+            <center>
+                <input class="submit" type="submit" value="Submit">
+            </center>
+        </form>
+        <br>
+        <center>
+            <button class = "new" onclick ="addSection()">Nueva sección</button>
+            <button class = "new" onclick ="addSpecification()">Nueva especificación</button>
+        </center>
+    </div>
+</body>
+
+</html>

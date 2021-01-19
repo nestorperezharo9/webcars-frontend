@@ -1,0 +1,172 @@
+.container-noticias{
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 3%;
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 35% 50%;
+  grid-template-rows: 22% 15% 20%;
+  grid-gap: 13%;
+}
+
+.container-noticias img{
+  object-fit: cover;
+    width: 100%;
+    height: 120%;
+    border-radius: 7px; 
+}
+
+.titulo {
+  border-bottom: solid black 1px;
+}
+
+.preview-text {
+  padding: 1rem 1rem 2.2rem 1rem;
+  overflow: hidden;
+}
+
+.preview-text p {
+  text-overflow: hidden;
+  overflow: hidden;
+}
+
+
+.parrafo {
+  display: block;
+}
+
+.div-error {
+  color: red;
+}
+
+.error {
+  border-color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .img-mv{
+    display:none;
+  }
+
+  h4,h3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-noticias{
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .align {
+    padding: 1.5rem;
+  }
+
+  .align h1 {
+    display: none;
+  }
+
+  h2 {
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    max-height: 2.8rem;
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    display: grid;
+  }
+
+  h4{
+    font-size: 0.7rem;
+    display: grid;
+  }
+
+  .titulo{
+    border-bottom: none;
+  }
+
+  .img-d{
+    display: none;
+  }
+
+  .noticia1 {
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    gap: 2rem;
+  }
+
+  .noticia1 img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    height: 12rem;
+  }
+
+  .noticia1 h3 {
+    margin: 0.4rem 0 0 0;
+  }
+
+  .noticia2 {
+    max-height: 8rem;
+  }
+
+  .noticia1 .preview-text {
+    padding: 0px;
+  }
+
+  .noticia1 p {
+    display: none;
+  }
+
+  .noticia2 {
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    gap: 2rem;
+  }
+
+  .noticia2 img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    height: 7rem;
+  }
+
+  .noticia2 h3 {
+    margin: 0.4rem 0 0 0;
+  }
+
+  .noticia2 {
+    max-height: 8rem;
+  }
+
+  .noticia2 .preview-text {
+    padding: 0;
+  }
+
+  .noticia2 p {
+    display: none;
+  }
+
+  .vacio{
+    display: none;
+  }
+}
